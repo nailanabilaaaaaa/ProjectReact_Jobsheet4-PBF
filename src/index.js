@@ -6,9 +6,10 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 import BlogPost from "./container/BlogPost/BlogPost";
+import PostMahasiswa from "./container/PostMahasiswa/PostMahasiswa";
 
 ReactDOM.render(
-  <BlogPost/>,
+  <PostMahasiswa/>,
   document.getElementById('content')
 );
 
