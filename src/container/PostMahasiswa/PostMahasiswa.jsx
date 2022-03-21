@@ -11,6 +11,7 @@ class PostMahasiswa extends Component{
             nama: "",
             alamat: "",
             hp: "",
+            jurusan: "",
             angkatan: "",
             status: ""
         }
@@ -90,6 +91,12 @@ class PostMahasiswa extends Component{
                         </div>
                     </div>
                     <div className="form-group-row">
+                        <label htmlFor="jurusan" className="col-sm-2 col-form-label">Jurusan</label>
+                        <div className="col-sm-10">
+                            <textarea className="form-control" id="jurusan" name="jurusan" rows="1" onChange={this.handleTambahMahasiswa}></textarea>
+                        </div>
+                    </div>
+                    <div className="form-group-row">
                         <label htmlFor="angkatan" className="col-sm-2 col-form-label">Tahun Angkatan</label>
                         <div className="col-sm-10">
                             <textarea className="form-control" id="angkatan" name="angkatan" rows="1" onChange={this.handleTambahMahasiswa}></textarea>
@@ -114,6 +121,7 @@ class PostMahasiswa extends Component{
                         nama={mahasiswa.nama}
                         alamat={mahasiswa.alamat}
                         hp={mahasiswa.hp} 
+                        jurusan={mahasiswa.jurusan}
                         angkatan={mahasiswa.angkatan} 
                         status={mahasiswa.status} 
                         idMahasiswa={mahasiswa.id} 

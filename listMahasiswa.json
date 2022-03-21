@@ -15,6 +15,16 @@
       "hp": "081802023523",
       "angkatan": 2014,
       "status": "lulus"
+    },
+    {
+      "id": 1647827115306,
+      "nim": "1941720130",
+      "nama": "Naila Nabila",
+      "alamat": "Jl. Kesatrian Terusan D.17",
+      "hp": "0895395105234",
+      "jurusan": "Tek. Informatika",
+      "angkatan": "2019",
+      "status": "aktif"
     }
   ],
   "comments": [],
